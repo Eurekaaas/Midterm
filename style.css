@@ -1,0 +1,150 @@
+.video{
+  width: 100vw;
+  height: auto;
+  background-position: center;
+  position: relative;
+  filter: opacity(80%);
+  overflow: hidden;
+}
+
+
+.name{
+  position: absolute;
+  left: 50vw;
+  top: 70vh;
+  transform: translate(-50%, -50%);
+  letter-spacing: 1vw;
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  color: #424b50;
+  font-weight: bold;
+  font-size: 5vh;
+  line-height: 0.9;
+}
+
+
+.verticalLine{
+  border-left: 0.5vw solid #415065;
+  height: 40vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30vh;
+}
+
+.MountainsNav{
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-decoration: none;
+  text-align: center;
+  width: 40vw;
+  height: 60vh;
+  left: 5vw;
+  top: 25vh;
+  position: absolute;
+  color: #415065;
+  line-height: 0.8;
+}
+
+.MountainsNav p{
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+}
+
+.SeasNav{
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-decoration: none;
+  text-align: center;
+  width: 40vw;
+  height: 60vh;
+  right: 5vw;
+  top: 25vh;
+  position: absolute;
+  color: #415065;
+  line-height: 0.8;
+}
+
+.SeasNav p{
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
+  font-size: 2vw;
+  letter-spacing: 0.2vw;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.discription{
+  position: relative;
+  width: 60vw;
+  font-size: 1vw;
+  top: 10vh;
+  left: 20vw;
+  font-family: 'Sen', sans-serif;
+}
+
+.discription p{
+  text-indent: 2vw;
+}
+
+.eastM{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.southM{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.westM{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.northM{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.midM{
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20vh;
+  left: 25vw;
+  padding-bottom: 10vh;
+}
+
+.menu a{
+  box-sizing: border-box;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 5vw;
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  font-size: 3vh;
+  font-weight: bold;
+  letter-spacing: 0.2vw;
+  color: #82735e;
+}
