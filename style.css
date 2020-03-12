@@ -45,6 +45,15 @@
   line-height: 0.8;
 }
 
+.arrow{
+  width: 4vw;
+  height: 4vw;
+  object-fit: scale-down;
+  position: fixed;
+  top: 5vh;
+  left: 5vw;
+}
+
 .MountainsNav p{
   font-family: 'Rock Salt', cursive;
   font-weight: bold;
@@ -84,42 +93,14 @@
   top: 10vh;
   left: 20vw;
   font-family: 'Sen', sans-serif;
+  color: #415065;
 }
 
 .discription p{
   text-indent: 2vw;
 }
 
-.eastM{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.southM{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.westM{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.northM{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.midM{
+.mIcon{
   position: relative;
   width: 5vw;
   height: 5vw;
@@ -146,5 +127,79 @@
   font-size: 3vh;
   font-weight: bold;
   letter-spacing: 0.2vw;
-  color: #82735e;
+  color: #75392b;
+}
+
+
+.sIcon{
+  position: relative;
+  width: 3vw;
+  height: 3vw;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.Menu{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20vh;
+  left: 5vw;
+  height: auto;
+  padding-bottom: 10vh;
+}
+
+.Menu a{
+  box-sizing: border-box;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: #75392b;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+}
+
+.title{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  position: relative;
+  line-height: 5vh;;
+  color: #424b50;
+}
+
+.content{
+  width: 50vw;
+  height: auto;
+  left: 60vw;
+  transform: translate(-50%);
+  position: relative;
+  font-family: 'ZCOOL XiaoWei', serif;
+  padding-top: 5vh;
+  color: #375221;
+}
+
+.each{
+  padding-bottom: 8vh;
+}
+
+.discriptions{
+  writing-mode: vertical-lr;
+  float: left;
+  width: auto;
+  height: 30vw;
+}
+
+.pics{
+  width: 30vw;
+  height: 30vw;
+  object-fit: scale-down;
+  position: relative;
 }
