@@ -114,7 +114,7 @@
   position: relative;
   top: 20vh;
   left: 25vw;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 .menu a{
@@ -124,7 +124,7 @@
   padding-left: 5vw;
   font-family: 'Sen', sans-serif;
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 1.3vw;
   font-weight: bold;
   letter-spacing: 0.2vw;
   color: #75392b;
@@ -146,7 +146,7 @@
   top: 20vh;
   left: 5vw;
   height: auto;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 .Menu a{
@@ -156,14 +156,15 @@
   padding-left: 1vw;
   font-family: 'Sen', sans-serif;
   text-decoration: none;
-  font-size: 2.5vh;
+  font-size: 1vw;
   font-weight: bold;
   color: #75392b;
 }
 
 .column{
   float: left;
-  width: 33.33%;
+  width: 25%;
+  padding-left: 5%;
 }
 
 .title{
